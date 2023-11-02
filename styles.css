@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1 {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 3rem;
+
+  /* height: 300px; */
+}
