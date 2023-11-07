@@ -23,7 +23,7 @@ h1 {
 .row {
   display: flex;
   gap: 30px;
-  padding: 100px 0;
+  padding: 3em 0;
 }
 
 .col {
