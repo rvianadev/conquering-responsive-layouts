@@ -26,6 +26,18 @@ img {
   max-width: 100%;
 }
 
+menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 80%;
   max-width: 1100px;
@@ -35,6 +47,31 @@ img {
 .row {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
+  background: #136c72;
+  padding: 2rem;
+}
+
+.menu__item {
+  margin-right: 2em;
+}
+
+.menu__link {
+  color: white;
+}
+
+.menu__link--button {
+  color: #136c72;
+  background: #fff;
+  padding: 0.25em 1em;
+  border-radius: 6em;
+}
+
+.menu__link--button:hover {
+  padding: 0.3em 1.2em;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -49,8 +86,7 @@ img {
 
 .hero__img {
   width: 32%;
-  display: flex;
-  align-items: center;
+  align-self: flex-start;
 }
 
 .hero p {
