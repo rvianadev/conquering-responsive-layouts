@@ -54,6 +54,19 @@ a {
   padding: 2rem;
 }
 
+.logo {
+  margin-right: 1em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  /* border: 2px solid red; */
+}
+
 .menu__item {
   margin-right: 2em;
 }
